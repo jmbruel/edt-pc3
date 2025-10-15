@@ -1,0 +1,80 @@
+@startgantt PC3GanttChart
+
+printscale quarterly
+Project starts the 1st of January 2026
+' Project ends the 31st of December 2029
+-- T3.1 Methodology development --
+' PostDoc 2 ans
+[Lead IRIT] requires 1460 days
+note bottom
+  2Y PostDoc
+end note
+
+[Requirements gathering] as [T3.1a] requires 182 days and is colored in LightBlue
+[D3.1a -- Requirements] happens at [T3.1a]'s end
+
+[Methodo design] as [T3.1b] requires 640 days and is colored in LightBlue
+[T3.1b] starts 1st April 2026
+[D3.1b -- Draft of Methodology ] happens 1st Jannuary 2027
+[D3.1c -- Methodology] happens at [T3.1b]'s end
+
+-- T3.2 DevOps and CI/CD --
+' 1.5 FTE + 1.5 FTE
+[Lead LaBRI] requires 1460 days
+note bottom
+  2-3Y FTE
+  2 PhDs
+end note
+
+
+[DevOps strategy] as [T3.2a] requires 365 days and is colored in LightBlue
+[T3.2a] starts 1st January 2026
+[CI/CD pipeline setup] as [T3.2b] requires 1000 days and is colored in LightBlue
+[D3.2a -- Repo is ready] happens 1st October 2026
+[D3.2b -- CI/CD pipeline is complete] happens at [T3.2b]'s end
+
+[T3.2b] starts 1st April 2026
+[PhD1] as [T3.2c] requires 1095 days and is colored in LightGreen
+[D3.2c -- PhD thesis 1] happens at [T3.2c]'s end
+
+[T3.2c] starts 1st October 2026
+[PhD2] as [T3.2d] requires 1095 days and is colored in LightGreen
+[T3.2d] starts 1st October 2026
+[D3.2d -- PhD thesis 2] happens at [T3.2d]'s end
+
+-- T3.3 Platform development --
+' 2FTE 4 years
+[Lead CEA] requires 1460 days
+note bottom
+  8Y FTE
+  2 PhDs
+end note
+
+[Platform design] as [T3.3a] requires 730 days and is colored in LightBlue
+[T3.3a] starts 1st January 2026
+[D3.3a -- POC is ready] happens 1st October 2026
+
+[Platform implementation] as [T3.3b] requires 1185 days and is colored in LightBlue
+[T3.3b] starts 1st October 2026
+[D3.3b -- Platform v1] happens 1st July 2027
+[D3.3c -- Platform v2] happens 1st July 2028
+[D3.3d -- Platform v-final] happens at [T3.3b]'s end
+
+[PhD3] as [T3.3c] requires 1095 days and is colored in LightGreen
+[T3.3c] starts 1st October 2026
+[D3.3e -- PhD thesis 3] happens at [T3.3c]'s end
+
+[PhD4] as [T3.3d] requires 1095 days and is colored in LightGreen
+[T3.3d] starts 1st October 2026
+[D3.3f -- PhD thesis 4] happens at [T3.3d]'s end
+
+' Legend
+legend
+Legend:
+|= Color |= Task Type |
+|<#lightgray> | WP leader |
+|<#LightBlue>| FTE & PostDocs |
+|<#LightGreen> | PhDs |
+end legend
+
+@endgantt
