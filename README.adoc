@@ -5,13 +5,13 @@ This repository contains the organizational materials for the PC3 project.
 
 == Tasks and Issues
 
-ifdef::github[]
+ifdef::github-env[]
 image::PC3GanttChart.png[Tasks and Issues Board]
-endif::github[]
+endif::[]
 
-ifndef::github[]
+ifndef::github-env[]
 [plantuml, PC3GanttChart, svg]
 ----
 include pc3-gantt.plantuml
 ----
-endif::github[]
+endif::[]
