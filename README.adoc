@@ -6,3 +6,8 @@ This repository contains the organizational materials for the PC3 project.
 == Tasks and Issues
 
 images::out/pc3-gantt/PC3GanttChart.png[Tasks and Issues Board]
+
+[plantuml, PC3GanttChart, svg]
+----
+include pc3-gantt.plantuml
+----
