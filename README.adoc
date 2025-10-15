@@ -1,13 +1,17 @@
 = PC3 Organization
-// :imagesdir: out/pc3-gantt/
+:imagesdir: out/pc3-gantt/
 
 This repository contains the organizational materials for the PC3 project.
 
 == Tasks and Issues
 
-images::out/pc3-gantt/PC3GanttChart.png[Tasks and Issues Board]
+ifdef::github[]
+image::PC3GanttChart.png[Tasks and Issues Board]
+endif::github[]
 
+ifndef::github[]
 [plantuml, PC3GanttChart, svg]
 ----
 include pc3-gantt.plantuml
 ----
+endif::github[]
