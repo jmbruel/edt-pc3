@@ -30,14 +30,15 @@ end note
 [DevOps strategy] as [T3.2a] requires 365 days and is colored in LightBlue
 [T3.2a] starts 1st January 2026
 [CI/CD pipeline setup] as [T3.2b] requires 1000 days and is colored in LightBlue
+[T3.2b] starts 1st April 2026
+
 [D3.2a -- Repo is ready] happens 1st October 2026
 [D3.2b -- CI/CD pipeline is complete] happens at [T3.2b]'s end
 
-[T3.2b] starts 1st April 2026
 [PhD1] as [T3.2c] requires 1095 days and is colored in LightGreen
+[T3.2c] starts 1st October 2026
 [D3.2c -- PhD thesis 1] happens at [T3.2c]'s end
 
-[T3.2c] starts 1st October 2026
 [PhD2] as [T3.2d] requires 1095 days and is colored in LightGreen
 [T3.2d] starts 1st October 2026
 [D3.2d -- PhD thesis 2] happens at [T3.2d]'s end
