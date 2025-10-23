@@ -36,7 +36,7 @@ image::PC3GanttChart.svg[Tasks and Issues Board]
 * [D3.3f -- PhD thesis 4] happens at [T3.3d]'s end
 
 
-== Eléments d'évaluation
+== Éléments d'évaluation
 
 [cols="1,2,1", options="header"]
 |===
@@ -48,6 +48,8 @@ image::PC3GanttChart.svg[Tasks and Issues Board]
 |Attractivité des sujets        | Nombre de candidatures reçues par sujet de thèse                  | Science
 |Citations des publications     | Nombre de citations des publications liées au projet              | Science
 |Citation de la plateforme      | Nombre de mentions de la plateforme (presse, blog, etc.)          | Communauté
+|Adéquation aux Use Cases       | Pourcentage des Use Cases couverts par la plateforme              | Plateforme / Communauté
+|Satisfaction des utilisateurs  | Score moyen de satisfaction des utilisateurs (enquête annuelle)   | Plateforme / Communauté
 |===
 
 
