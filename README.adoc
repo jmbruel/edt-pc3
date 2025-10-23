@@ -5,4 +5,52 @@ This repository contains the organizational materials for the PC3 project.
 
 == Tasks and Issues
 
-image::PC3GanttChart.png[Tasks and Issues Board]
+image::PC3GanttChart.svg[Tasks and Issues Board]
+
+// [plantuml, gantt, svg]
+// ----
+// include::pc3-gantt.plantuml[]
+// ----
+
+
+
+== Sujets
+
+
+== Livrables
+
+* [D3.1a -- Requirements] happens at [T3.1a]'s end
+* [D3.1b -- Draft of Methodology ] happens 1st January 2027
+* [D3.1c -- Methodology] happens at [T3.1b]'s end
+
+* [D3.2a -- Repo is ready] happens 1st October 2026
+* [D3.2b -- CI/CD pipeline is complete] happens at [T3.2b]'s end
+* [D3.2c -- PhD thesis 1] happens at [T3.2c]'s end
+* [D3.2d -- PhD thesis 2] happens at [T3.2d]'s end
+
+* [D3.3a -- POC is ready] happens 1st October 2026
+* [D3.3b -- Platform v1] happens 1st July 2027
+* [D3.3c -- Platform v2] happens 1st July 2028
+* [D3.3d -- Platform v-final] happens at [T3.3b]'s end
+* [D3.3e -- PhD thesis 3] happens at [T3.3c]'s end
+* [D3.3f -- PhD thesis 4] happens at [T3.3d]'s end
+
+
+== Eléments d'évaluation
+
+[cols="1,2,1", options="header"]
+|===
+|KPI |Description |Type
+|Taux de complétion des tâches  | Pourcentage des tâches complétées par rapport aux tâches totales  | Plateforme / Science
+|Respect des délais             | Pourcentage des livrables soumis dans les délais prévus           | Plateforme / Science
+|Nombres de contributeurs       | Nombre de contributeurs majeurs différents (INRIA, CEA, ...)      | Plateforme / Communauté
+|Durée moyenne des thèses       | Durée moyenne des thèses en mois (idéal 3 ans)                    | Science
+|Attractivité des sujets        | Nombre de candidatures reçues par sujet de thèse                  | Science
+|Citations des publications     | Nombre de citations des publications liées au projet              | Science
+|Citation de la plateforme      | Nombre de mentions de la plateforme (presse, blog, etc.)          | Communauté
+|===
+
+
+== Liens Sujets/livrables/KPIs
+
+

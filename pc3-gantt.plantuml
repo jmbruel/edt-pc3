@@ -15,7 +15,7 @@ end note
 
 [Methodo design] as [T3.1b] requires 640 days and is colored in LightBlue
 [T3.1b] starts 1st April 2026
-[D3.1b -- Draft of Methodology ] happens 1st Jannuary 2027
+[D3.1b -- Draft of Methodology ] happens 1st January 2027
 [D3.1c -- Methodology] happens at [T3.1b]'s end
 
 -- T3.2 DevOps and CI/CD --
