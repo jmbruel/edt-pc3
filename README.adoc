@@ -3,6 +3,56 @@
 
 This repository contains the organizational materials for the PC3 project.
 
+== Topics
+
+[%interactive]
+- [ ] sélectionner une liste de partenaires (institut/labo/equipe/contact/sujet) pour les sujets prioritaires (qui rentre dans la rectification budgétaire). Il faut favoriser un projet scientifique cohérent, et donc pas de problème pour revoir l’histoire / organisation du PC au vue de la coupe budgétaire (i.e., vous souhaitez enlever un WP, ou les revoir pour mieux balancer si un déséquilibre se crée, etc.) => voir https://overleaf.irisa.fr/project/66d9dcb7f67f29009806bcd7 
+- [ ] définir les livrables et la timeline (en s’alignant sur la timeline générale du programme)
+- [ ] définir les indicateurs d’évaluation du PC, sur les dimensions communauté, science, plateforme, et démonstrateurs & use cases.
+- [ ] Comité scientifique: 2 noms par PC [deadline: 31 octobre]
+- [ ] Mise à jours du document de la proposition de programme  en fonction de la rectification scientifique, et avec les livrables et indicateurs. [deadline: 31 octobre]
+
+
+=== KPIs
+
+// From Antoine:
+Quelques idées de KPI qu’on avait adopté pour un projet européen non retenu…
+Il y avait des évaluations sociales/socio/humaine avant puis après introduction de DT dans des industries…
+
+1. Job satisfaction (JS) Workplace IT satisfaction (WIS)
+2. Autonomy of the workers
+3. Team connection and affinity
+4. Motivation of workers
+5. Interactions between workers
+6. Stress and workload
+7. Safety of workers
+
+On avait des partenaires des SHS avec nous pour l'évaluation…
+
+On peut imaginer des choses sur la consommation énergétique, le stockage de données, la réutilisation de modèles, de données … du système complet (DT+SR).
+
+=== Deliverables
+
+[D3.1a -- Requirements]
+[D3.1b -- Draft Methodology]
+[D3.1c -- Final Methodology]
+[D3.2a -- Repo is ready]
+[D3.2b -- CI/CD pipeline]
+[D3.2c -- PhD1 thesis]
+[D3.3a -- Platform v0 - POC]
+[D3.3b -- Platform v1 - Prototype]
+[D3.3c -- Platform v2 - MVP]
+[D3.3d -- Platform]
+[D3.3e -- PhD3 thesis]
+[D3.3f -- PhD4 thesis]
+
+=== Plateforme
+
+DTaaS (Digital Twin as a Service) - plateforme de jumeaux numériques pour la fabrication et la logistique
+
+Attention, le nom existe déjà : Prasad Talasila <prasad.talasila@ece.au.dk>  développe DTaaS, une plateforme open-source à Aarhus (cf. Antoine Beugnard).
+
+
 == Tasks and Issues
 
 image::PC3GanttChart.svg[Tasks and Issues Board]
