@@ -1,9 +1,28 @@
 = PC3 Organization
-:imagesdir: out/pc3-gantt/
+Jean-Michel Bruel; Sophie Ebersold; Mariya Naumcheva
+{localdate}
+//------------------------- configuration
+// :imagesdir: images
+:icons: font
+:toc: left
+:numbered!:
+
+// icons for GitHub https://gist.github.com/rxaviers/7360908
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+//-------------------------------------
+
 
 This repository contains the organizational materials for the PC3 project.
 
-== Topics
+== Homework
+
+Demandé par Benoit et Pascale :
 
 [%interactive]
 - [ ] sélectionner une liste de partenaires (institut/labo/equipe/contact/sujet) pour les sujets prioritaires (qui rentre dans la rectification budgétaire). Il faut favoriser un projet scientifique cohérent, et donc pas de problème pour revoir l’histoire / organisation du PC au vue de la coupe budgétaire (i.e., vous souhaitez enlever un WP, ou les revoir pour mieux balancer si un déséquilibre se crée, etc.) => voir https://overleaf.irisa.fr/project/66d9dcb7f67f29009806bcd7 
@@ -13,80 +32,72 @@ This repository contains the organizational materials for the PC3 project.
 - [ ] Mise à jours du document de la proposition de programme  en fonction de la rectification scientifique, et avec les livrables et indicateurs. [deadline: 31 octobre]
 
 
-=== KPIs
-
-// From Antoine:
-Quelques idées de KPI qu’on avait adopté pour un projet européen non retenu…
-Il y avait des évaluations sociales/socio/humaine avant puis après introduction de DT dans des industries…
-
-1. Job satisfaction (JS) Workplace IT satisfaction (WIS)
-2. Autonomy of the workers
-3. Team connection and affinity
-4. Motivation of workers
-5. Interactions between workers
-6. Stress and workload
-7. Safety of workers
-
-On avait des partenaires des SHS avec nous pour l'évaluation…
-
-On peut imaginer des choses sur la consommation énergétique, le stockage de données, la réutilisation de modèles, de données … du système complet (DT+SR).
-
-=== Deliverables
-
-[D3.1a -- Requirements]
-[D3.1b -- Draft Methodology]
-[D3.1c -- Final Methodology]
-[D3.2a -- Repo is ready]
-[D3.2b -- CI/CD pipeline]
-[D3.2c -- PhD1 thesis]
-[D3.3a -- Platform v0 - POC]
-[D3.3b -- Platform v1 - Prototype]
-[D3.3c -- Platform v2 - MVP]
-[D3.3d -- Platform]
-[D3.3e -- PhD3 thesis]
-[D3.3f -- PhD4 thesis]
-
 === Plateforme
 
-DTaaS (Digital Twin as a Service) - plateforme de jumeaux numériques pour la fabrication et la logistique
+Je pensais intialement à *DTaaS* (Digital Twin as a Service) - plateforme de jumeaux numériques pour la fabrication et la logistique
 
-Attention, le nom existe déjà : Prasad Talasila <prasad.talasila@ece.au.dk>  développe DTaaS, une plateforme open-source à Aarhus (cf. Antoine Beugnard).
+WARNING: Attention, le nom existe déjà : mailto:prasad.talasila@ece.au.dk[Prasad Talasila]  développe https://github.com/INTO-CPS-Association/DTaaS[DTaaS], une plateforme open-source à Aarhus (cf. Antoine Beugnard).
 
+Du coup, proposition de nommer les différents "blocks" du projet de la façon suivante (par exemple) :
 
-== Tasks and Issues
+- EDT.fab (ou EDT.build) : la plateforme de construction de jumeaux numériques
+- EDT.run : la plateforme d'exécution de jumeaux numériques
+- EDT.dev : la méthodologie de création et d'utilisation des jumeaux numériques
+- EDT.ops : la plateforme de déploiement continue et de gestion des jumeaux numériques
+- EDT.comp : les composants réutilisables pour la création de jumeaux numériques
+- EDT.network : la communauté des utilisateurs et contributeurs de la plateforme
+- EDT.sim : le module de simulation pour les jumeaux numériques
+- EDT.xyz : autre module de la plateforme
 
-image::PC3GanttChart.svg[Tasks and Issues Board]
+Avec en plus une possibilité de structurer les blocks :
 
-// [plantuml, gantt, svg]
-// ----
-// include::pc3-gantt.plantuml[]
-// ----
+image::EDT.blocks.jpg[EDT Blocks Architecture]
 
-
-
-== Sujets
-
-
-== Livrables
-
-* [D3.1a -- Requirements] happens at [T3.1a]'s end
-* [D3.1b -- Draft of Methodology ] happens 1st January 2027
-* [D3.1c -- Methodology] happens at [T3.1b]'s end
-
-* [D3.2a -- Repo is ready] happens 1st October 2026
-* [D3.2b -- CI/CD pipeline is complete] happens at [T3.2b]'s end
-* [D3.2c -- PhD thesis 1] happens at [T3.2c]'s end
-* [D3.2d -- PhD thesis 2] happens at [T3.2d]'s end
-
-* [D3.3a -- POC is ready] happens 1st October 2026
-* [D3.3b -- Platform v1] happens 1st July 2027
-* [D3.3c -- Platform v2] happens 1st July 2028
-* [D3.3d -- Platform v-final] happens at [T3.3b]'s end
-* [D3.3e -- PhD thesis 3] happens at [T3.3c]'s end
-* [D3.3f -- PhD thesis 4] happens at [T3.3d]'s end
+IMPORTANT: Je pense qu'il faut vraiment garder la notion de "as a Service".
 
 
-== Éléments d'évaluation
+=== Tasks and Issues
+
+Voici l'organisation générale (sur 5 ans) des tâches et des livrables du PC3 :
+
+ifdef::env-github[]
+
+image::out/pc3-gantt/PC3GanttChart.svg[Tasks and Issues Board]
+
+endif::[]
+
+ifndef::env-github[]
+
+.PC3 Gantt Chart -- {localdate}
+[plantuml, gantt, svg]
+----
+include::pc3-gantt.plantuml[]
+----
+
+endif::[]
+
+=== Livrables
+
+[quote]
+----
+include::pc3-deliverables.plantuml[]
+----
+
+
+=== Sujets
+
+Plusieurs thématiques importantes sont remontées et nécessitent concertation pour décider des co-encadrements et des priorités :
+
+- Postdoc WP1
+- Postdoc WP2
+- PhD1 WP2 => Sustainability
+- PhD2 WP3 => Collaboratif(ou WP1 du coup ?)
+- PhD3 WP4 => Sylvain / IGN
+- PhD4 WP5 => CEA
+
+=== Éléments d'évaluation (KPIs)
+
+Quelques idées (pas déclinées sur les jalons) :
 
 [cols="1,2,1", options="header"]
 |===
@@ -100,9 +111,29 @@ image::PC3GanttChart.svg[Tasks and Issues Board]
 |Citation de la plateforme      | Nombre de mentions de la plateforme (presse, blog, etc.)          | Communauté
 |Adéquation aux Use Cases       | Pourcentage des Use Cases couverts par la plateforme              | Plateforme / Communauté
 |Satisfaction des utilisateurs  | Score moyen de satisfaction des utilisateurs (enquête annuelle)   | Plateforme / Communauté
+|Job satisfaction  | Score moyen de satisfaction des embauchés | Plateforme 
+|Consommation énergétique  | Mesure de la consommation énergétique de la plateforme | Plateforme
 |===
 
+// From Antoine:
+// Quelques idées de KPI qu’on avait adopté pour un projet européen non retenu…
+// Il y avait des évaluations sociales/socio/humaine avant puis après introduction de DT dans des industries…
 
-== Liens Sujets/livrables/KPIs
+// 1. Job satisfaction (JS) Workplace IT satisfaction (WIS)
+// 2. Autonomy of the workers
+// 3. Team connection and affinity
+// 4. Motivation of workers
+// 5. Interactions between workers
+// 6. Stress and workload
+// 7. Safety of workers
 
+// On avait des partenaires des SHS avec nous pour l'évaluation…
+
+// On peut imaginer des choses sur la consommation énergétique, le stockage de données, la réutilisation de modèles, de données … du système complet (DT+SR).
+
+
+=== Liens Sujets/livrables/KPIs
+
+
+// == Idées diverses   
 

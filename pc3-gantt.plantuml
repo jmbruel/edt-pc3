@@ -1,5 +1,7 @@
 @startgantt PC3GanttChart
 
+title PC3 Gantt Chart
+
 printscale quarterly
 Project starts the 1st of January 2026
 ' Project ends the 31st of December 2029
@@ -59,8 +61,8 @@ end note
 [Platform implementation and maintenance] as [T3.3b] is colored in LightBlue
 [T3.3b] starts 1st October 2026
 [T3.3b] ends 31st December 2030
-[D3.3b -- Platform v1] happens 1st July 2027
-[D3.3c -- Platform v2] happens 1st January 2029
+[D3.3b -- Platform v0.1] happens 1st July 2027
+[D3.3c -- Platform v0.5] happens 1st July 2029
 [D3.3d -- Platform] happens at [T3.3b]'s end
 
 [PhD3] as [T3.3c] requires 1095 days and is colored in LightGreen
@@ -70,6 +72,7 @@ end note
 [PhD4] as [T3.3d] requires 1095 days and is colored in LightGreen
 [T3.3d] starts 1st October 2027
 [D3.3f -- PhD thesis 4] happens at [T3.3d]'s end
+
 
 ' Legend
 legend
