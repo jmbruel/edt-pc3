@@ -78,10 +78,16 @@ endif::[]
 
 === Livrables
 
+ifdef::env-github[]
+See link:pc3-deliverables.plantuml[]
+endif::[]
+
+ifndef::env-github[]
 [quote]
 ----
 include::pc3-deliverables.plantuml[]
 ----
+endif::[]
 
 
 === Sujets
