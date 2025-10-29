@@ -5,6 +5,19 @@ title PC3 Gantt Chart
 printscale quarterly
 Project starts the 1st of January 2026
 ' Project ends the 31st of December 2029
+
+' General Milestones
+[M1] happens at 1st of July 2026
+[M2] happens at 1st of July 2027
+[M3] happens at 1st of January 2028
+[M4] happens at 1st of July 2028
+[M5] happens at 1st of January 2029
+[M6] happens at 1st of July 2029
+[M7] happens at 1st of July 2030
+[M8] happens at 31st of December 2030
+
+
+
 -- T3.1 Methodology development --
 ' PostDoc 2 ans
 [Lead IRIT] requires 1825 days

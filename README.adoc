@@ -25,10 +25,10 @@ This repository contains the organizational materials for the PC3 project.
 Demandé par Benoit et Pascale :
 
 [%interactive]
-- [ ] sélectionner une liste de partenaires (institut/labo/equipe/contact/sujet) pour les sujets prioritaires (qui rentre dans la rectification budgétaire). Il faut favoriser un projet scientifique cohérent, et donc pas de problème pour revoir l’histoire / organisation du PC au vue de la coupe budgétaire (i.e., vous souhaitez enlever un WP, ou les revoir pour mieux balancer si un déséquilibre se crée, etc.) => voir https://overleaf.irisa.fr/project/66d9dcb7f67f29009806bcd7 
-- [ ] définir les livrables et la timeline (en s’alignant sur la timeline générale du programme)
+- [x] sélectionner une liste de partenaires (institut/labo/equipe/contact/sujet) pour les sujets prioritaires (qui rentre dans la rectification budgétaire). Il faut favoriser un projet scientifique cohérent, et donc pas de problème pour revoir l’histoire / organisation du PC au vue de la coupe budgétaire (i.e., vous souhaitez enlever un WP, ou les revoir pour mieux balancer si un déséquilibre se crée, etc.) => voir https://overleaf.irisa.fr/project/66d9dcb7f67f29009806bcd7 
+- [x] définir les livrables et la timeline (en s’alignant sur la timeline générale du programme)
 - [ ] définir les indicateurs d’évaluation du PC, sur les dimensions communauté, science, plateforme, et démonstrateurs & use cases.
-- [ ] Comité scientifique: 2 noms par PC [deadline: 31 octobre]
+- [x] Comité scientifique: 2 noms par PC [deadline: 31 octobre]
 - [ ] Mise à jours du document de la proposition de programme  en fonction de la rectification scientifique, et avec les livrables et indicateurs. [deadline: 31 octobre]
 
 
@@ -90,6 +90,21 @@ include::pc3-deliverables.plantuml[]
 endif::[]
 
 
+=== Partners
+
+- CEA LIST (Marcos Didonet Del Fabro)
+- CNRS/CRISTAL (Romain Rouvoy)
+- CNRS/IRIT (Sophie Ebersold)
+- CNRS/LaBRI (Thomas Degueule)
+- CRI (Jannik Laval)
+- IGN (Bruno Vallet)
+- IMT Atlantique (Sylvain Guérin, Antoine Beugnard, Fabien Dagnat)
+- INRIA/IRISA (Arnaud Blouin, Quentin Perez)
+
+Mailing list PC3: 
+jannik.laval@univ-lyon2.fr, arnaud.blouin@irisa.fr, sophie.ebersold@irit.fr, thomas.degueule@labri.fr, marcos.didonetdelfabro@cea.fr, sylvain.guerin@imt-atlantique.fr, romain.rouvoy@univ-lille1.fr, bruno.vallet@ign.fr, quentin.perez@irisa.fr, antoine.beugnard@imt-atlantique.fr, fabien.dagnat@imt-atlantique.fr
+
+
 === Sujets
 
 Plusieurs thématiques importantes sont remontées et nécessitent concertation pour décider des co-encadrements et des priorités :
@@ -138,7 +153,7 @@ Quelques idées (pas déclinées sur les jalons) :
 // On peut imaginer des choses sur la consommation énergétique, le stockage de données, la réutilisation de modèles, de données … du système complet (DT+SR).
 
 
-=== Liens Sujets/livrables/KPIs
+// === Liens Sujets/livrables/KPIs
 
 
 // == Idées diverses   
