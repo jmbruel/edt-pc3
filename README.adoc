@@ -96,7 +96,7 @@ endif::[]
 - CNRS/CRISTAL (Romain Rouvoy)
 - CNRS/IRIT (Sophie Ebersold)
 - CNRS/LaBRI (Thomas Degueule)
-- CRI (Jannik Laval)
+- DISP (Jannik Laval)
 - IGN (Bruno Vallet)
 - IMT Atlantique (Sylvain Guérin, Antoine Beugnard, Fabien Dagnat)
 - INRIA/IRISA (Arnaud Blouin, Quentin Perez)
